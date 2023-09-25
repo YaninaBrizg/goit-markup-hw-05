@@ -65,8 +65,9 @@
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-title-btn button" type="button">
-            Order Service
+          Order Service
           </button>
+    
         </div>
       </section>
 
@@ -605,5 +606,57 @@
         </div>
       </div>
     </footer>
+
+    <!-- Modal -->
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button class="modal-button button" type="button">
+          <svg class="modal-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close">
+          </svg>
+        </button>
+
+        <strong class="form-title">Leave your contacts and we will call you back</strong>
+<lebel class="modal-form" name="contact_form">
+  <label class="modal-form-label" for="username">Name</label>
+  <div class="modal-form-field">
+    <input class="modal-form-input" type="text" name="username" id="username" placeholder="" />
+    <svg class="modal-form-icon" width="18" height="18">
+      <use href="./images/icons.svg#icon-person"></use>
+    </svg>
+  </div>
+
+  <label class="modal-form-label" for="userphone">Phone</label>
+  <div class="modal-form-field">
+    <input class="modal-form-input" type="text" name="userphone" id="userphone" placeholder="" />
+    <svg class="modal-form-icon" width="18" height="24">
+      <use href="./images/icons.svg#icon-phone"></use>
+    </svg>
+  </div>
+
+  <label class="modal-form-label" for="useremail">Email</label>
+  <div class="modal-form-field">
+    <input class="modal-form-input" type="text" name="useremail" id="useremail" placeholder="" />
+    <svg class="modal-form-icon" width="18" height="24">
+      <use href="./images/icons.svg#icon-email"></use>
+    </svg>
+  </div>
+
+  <label class="modal-form-label" for="usercomment">Comment</label>
+  <textarea class="modal-form-comment" name="usercomment" id="usercomment" rows="7" placeholder="Text input"></textarea>
+</lebel>
+
+<label class="modal-form-label">
+  <input class="checkbox" type="checkbox" name="useragreement" />
+  <span clas="modal-form-desc">I accept the terms and conditions of the <a href="" target="_blank" rel="noopener no-referrer">Privacy Policy</a></span>
+</label>
+
+<button class="hero-title-btn button" type="button">
+          Send
+          </button>
+
+</form>
+      </div>
+    </div>
   </body>
 </html>
