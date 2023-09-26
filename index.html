@@ -638,7 +638,6 @@
 
           <div class="modal-container">
             <label class="modal-form-label" for="userphone">Phone</label>
-
             <div class="modal-form-field">
               <input
                 class="modal-form-input"
@@ -651,9 +650,10 @@
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
-            <div class="modal-container">
-              <label class="modal-form-label" for="useremail">Email</label>
-            </div>
+          </div>
+
+          <div class="modal-container">
+            <label class="modal-form-label" for="useremail">Email</label>
             <div class="modal-form-field">
               <input
                 class="modal-form-input"
@@ -668,14 +668,16 @@
             </div>
           </div>
 
-          <label class="modal-form-label" for="usercomment">Comment</label>
-          <textarea
-            class="modal-form-comment"
-            name="usercomment"
-            id="usercomment"
-            rows="7"
-            placeholder="Text input"
-          ></textarea>
+          <div class="modal-container-comment">
+            <label class="modal-form-label" for="user-comment">Comment</label>
+            <textarea
+              class="modal-form-comment"
+              name="user-comment"
+              id="user-comment"
+              rows="7"
+              placeholder="Text input"
+            ></textarea>
+          </div>
 
           <label class="modal-form-label">
             <input class="checkbox" type="checkbox" name="useragreement" />
