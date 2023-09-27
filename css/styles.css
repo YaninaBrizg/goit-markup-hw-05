@@ -760,7 +760,7 @@ ul {
   letter-spacing: 0.04;
 }
 
-.modal-icon-check {
+.modal-icon-desc {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -774,12 +774,8 @@ ul {
   justify-content: center;
   fill: transparent;
 }
-/**
-  |============================
-  | .modal-form-desc.checkbox:checked
-  |============================
-*/
-.modal-form-desc + .checkbox:checked {
+
+.modal-form-desc + input:checked {
   background-color: var(--cloud);
   border: none;
   fill: var(--cloud);
