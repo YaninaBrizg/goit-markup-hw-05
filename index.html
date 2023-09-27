@@ -679,15 +679,32 @@
             ></textarea>
           </div>
 
-          <label class="modal-form-label">
-            <input class="checkbox" type="checkbox" name="useragreement" />
-            <span class="modal-form-desc"
-              >I accept the terms and conditions of the
-              <a href="" target="_blank" rel="noopener no-referrer"
+          <div class="modal-container-checkbox">
+            <input
+              class="checkbox visually-hidden"
+              id="user-privacy"
+              type="checkbox"
+              name="user-privacy"
+              value="true"
+            />
+
+            <label for="user-privacy" class="modal-form-label">
+              <span class="modal-form-desc">
+                <svg class="modal-form-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-checkmark"></use>
+                </svg>
+                I accept the terms and conditions of the
+              </span>
+              <a
+                class="modal-form-link"
+                href=""
+                target="_blank"
+                rel="noopener no-referrer"
                 >Privacy Policy</a
-              ></span
-            >
-          </label>
+              >
+            </label>
+          </div>
+
           <button class="hero-title-btn button" type="button">Send</button>
         </form>
       </div>
