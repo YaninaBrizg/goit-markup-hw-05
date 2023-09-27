@@ -760,7 +760,7 @@ ul {
   letter-spacing: 0.04;
 }
 
-.modal-form-desc {
+.modal-icon-check {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -774,9 +774,15 @@ ul {
   justify-content: center;
   fill: transparent;
 }
-
-.modal-form-desc.checkbox:checked {
+/**
+  |============================
+  | .modal-form-desc.checkbox:checked
+  |============================
+*/
+.modal-form-desc + .checkbox:checked {
   background-color: var(--cloud);
+  border: none;
+  fill: var(--cloud);
 }
 
 .modal-form-link {
