@@ -760,7 +760,7 @@ ul {
   letter-spacing: 0.04;
 }
 
-.modal-icon-desc {
+.modal-form-desc {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -776,7 +776,7 @@ ul {
 }
 
 .modal-form-desc + input:checked {
-  background-color: var(--cloud);
+  background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
 }
