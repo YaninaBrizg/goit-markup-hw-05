@@ -774,7 +774,7 @@ ul {
   justify-content: center;
   fill: transparent;
 }
-.checkbox.visually-hidden:checked + .modal-form-desc {
+.checkbox.visually-hidden:checked + .modal-form-label .modal-form-desc {
   background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
